@@ -1,0 +1,6 @@
+# script_template: "setup.iss"
+app_id: 97b46823-d3c2-4087-92cd-cedde062b428
+display_name: LOL
+create_desktop_icon: true
+locales:
+  - en
