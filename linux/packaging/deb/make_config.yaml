@@ -1,0 +1,33 @@
+# the name used to display in the OS. Specifically desktop
+# entry name
+display_name: lol
+
+# package name for debian/apt repository
+# the name should be all lowercase with -+.
+package_name: lol
+
+maintainer:
+  name: Hanh Huynh Huu
+  email: ywallet_2000@gmail.com
+
+# enum options -> required, important, standard, optional, extra
+# refer: https://www.debian.org/doc/debian-policy/ch-archive.html#s-priorities
+priority: optional
+
+# enum options: admin, cli-mono, comm, database, debug, devel, doc, editors, education, electronics, embedded, fonts, games, gnome, gnu-r, gnustep, graphics, hamradio, haskell, httpd, interpreters, introspection, java, javascript, kde, kernel, libdevel, libs, lisp, localization, mail, math, metapackages, misc, net, news, ocaml, oldlibs, otherosfs, perl, php, python, ruby, rust, science, shells, sound, tasks, tex, text, utils, vcs, video, web, x11, xfce, zope
+# refer: https://www.debian.org/doc/debian-policy/ch-archive.html#s-subsections
+section: misc
+
+# the size of binary in kilobyte
+installed_size: 60604
+
+essential: false
+
+icon: misc/icon.png
+
+metainfo: linux/packaging/lol.appdata.xml
+
+# the categories the application belong to
+# refer: https://specifications.freedesktop.org/menu-spec/latest/
+categories:
+  - Finance

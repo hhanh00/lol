@@ -1,0 +1,13 @@
+display_name: LOL
+
+icon: misc/icon.png
+
+keywords:
+  - Zcash
+
+generic_name: LOL
+
+metainfo: linux/packaging/lol.appdata.xml
+
+categories:
+  - Finance
