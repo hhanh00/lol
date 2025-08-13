@@ -6,7 +6,7 @@
 	<string>app-store</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>cc.methyl.zkool</key>
+		<key>cc.methyl.lol</key>
 		<string>ios</string>
 	</dict>
 	<key>signingCertificate</key>
